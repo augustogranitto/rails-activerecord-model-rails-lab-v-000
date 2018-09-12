@@ -25,4 +25,8 @@
   [1m[36m (3.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
   [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
   [1m[36m (3.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+<<<<<<< HEAD
   [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+=======
+>>>>>>> c4d599a1a21aad1a688486fbdbf790a9e43ccd19
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
